@@ -1,0 +1,6 @@
+-add comment on code to improve readability
+-for search.php, instead of random function names, give functions more intuitive names
+so that programmers who touch the code later can easily know what the function does
+-split deep function calls into smaller block of code in search.php so the logic is clearer 
+code is also easier to read in such ways 
+-for search.php delete commented lines and not used code
