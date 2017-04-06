@@ -1,0 +1,138 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	background-color:#48484B;
+	align-content:center;
+	align-items:center;
+	width:100%;
+	height:100%;
+	text-align:center;
+}
+#weblogo{
+	align-self: center;
+	width: 200xp;
+	height: auto;
+	text-align: center;
+}
+.table{
+	text-align:center;
+	align-content:center;
+	align-items:center;
+	
+}
+#cloudcell{
+	height:400px;
+}
+.leftCol{
+	width:20%
+}
+.midCol{
+	align-content:center;
+	align-items:center;
+	width:60%
+}
+.rightCol{
+	width:20%
+}
+
+.container input#search{
+  width: 250px;
+  height: 40px;
+  border:#17D8F4 solid medium;
+  font-size: 10pt;
+  text-align:left;
+  color: #000000;
+  padding-left: 5px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+
+  
+}
+.container input#number{
+  width: 80px;
+  height: 30px;
+  border:#17D8F4 solid medium;
+  font-size: 10pt;
+  text-align:left;
+  color: #000000;
+  margin-left:10px;
+  padding-left: 5px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  vertical-align:central;
+  margin-top:5px;
+
+  
+}
+.container input#search:hover, .container input#search:focus, .container input#search:active{
+    outline:none;
+    background: #55D7F7;
+  }
+.container input#number:hover, .container input#number:focus, .container input#number:active{
+   outline:none;
+   background: #55D7F7;
+}
+input[type="search"] {
+	-webkit-appearance: textfield;
+}
+
+#inputCell{
+	vertical-align:central;
+	text-align:center;
+}
+.button{
+	background-color:#1C5DA3;
+	color:#727171;
+	width: 90px;
+	border-radius: 4px;
+	border: 2px solid #631962;
+	height: 30px;
+	background-color: #0E539C; 
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px; 
+	margin-top: 10px;
+	
+}
+
+
+#gobutton{
+	background-color:#0E539C;
+	color:#AFAAAA;
+	margin-left: 10px;
+	
+}
+.history{
+	color:#727171;;
+	width: 100px;
+	border-radius: 4px;
+	border: 2px solid #2287BA;
+	height: 30px;
+	background-color: #0E539C; 
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px; 
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.cloud{
+	align-content:center;
+	pointer-events: auto;
+	position: relative;
+	display: inline-table;
+	left: 0px;
+	top: 34px;
+	z-index: 0;
+}
+.cloud1{
+	display:inline-table;
+position:absolute;
+float:none;	
+}

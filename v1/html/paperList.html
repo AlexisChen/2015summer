@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>PaperList</title>
+        <link rel="stylesheet" href="../css/paperlist.css">
+        <link rel="author" href="humans.txt">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+        <script src="../js/paperList.js"></script> 
+
+    </head>
+    <body >       
+        <!-- <script src="../js/paperList.js"></script> -->
+        
+            <div class="clickedWord" id = "clicked_word"> word Clicked</div>
+            <div class="sortDiv">
+                <select class="sort" id="sortList">
+                    <option>Sort By</option>
+                    <option>Frequency</option>
+                    <option>Title</option>
+                    <option>Author</option>
+                    <option>Conference</option>
+                </select>
+                        <input type="button" class="btn"  onClick="" value="Create New" >
+            </div>
+<div class="table">
+<table  width="90%" border="0" cellspacing="0" cellpadding="0" id ="paperList">
+  <tbody id="content">
+    <tr  id="header">
+    
+      <td><hr/>Frequency<hr/></td>
+      <td><hr/>Title<hr/></td>
+      <td><hr/>Author<hr/></td>
+      <td><hr/>Conference<hr/></td>
+      <td><hr/>Download Link<hr/></td>
+      <td><hr/>BibText<hr/></td>
+      <td><hr/><input type="checkbox" id=""/><hr/></td>
+    </tr>
+          
+
+  </tbody>
+</table>
+
+       </div> 
+    </body>
+
+</html>

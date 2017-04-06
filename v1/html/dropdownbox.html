@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+  <select id="DropDownList" >
+
+  </select>
+
+<br>
+
+<p>Click the button to add a "1" option at the end of the dropdown list.</p>
+  
+<button type="button" onclick="myFunction('insert','2')">Insert option</button>
+ <input type="text" name="tt" value="text">
+ <input type="text" name="vv" value="value">
+
+<script>
+/*
+$(document).ready(function(event) {
+    $('#countrylist').change(function(e){
+         // put code here
+     }).change();
+})
+*/
+
+document.getElementById("DropDownList").addEventListener("click",listQ);
+
+function listQ(){
+	var dropdownbt = document.getElementById("DropDownList");
+	var selectedItem = dropdownbt.options[dropdownbt.selectedIndex].text;
+	alert(selectedItem);
+}
+
+
+
+function myFunction(Text,Value) {
+    /*
+    var x = document.getElementById("mySelect");
+    var option = document.createElement("option");
+    option.text = insertItem;
+    x.add(option);
+    */
+        var opt = document.createElement("option");
+        
+        // Add an Option object to Drop Down/List Box
+        document.getElementById("DropDownList").options.add(opt);
+        // Assign text and value to Option object
+        opt.text = Text;
+        opt.value = Value;
+}
+</script>
+
+</body>
+</html>
